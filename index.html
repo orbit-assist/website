@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OrbitAssist — Growth Made Simple</title>
+  <meta name="description" content="OrbitAssist takes busywork off your plate — calls, leads, support, admin, marketing — so you can focus on growth.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <style>body{font-family:'Inter',system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif}</style>
+</head>
+<body>
+  <header class="site">
+    <div class="container nav">
+      <a class="logo-wrap" href="#"><img src="./assets/images/logo.png" alt="OrbitAssist logo"><span>OrbitAssist</span></a>
+      <nav class="links">
+        <a href="#services">Services</a>
+        <a href="#how">How it works</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a href="#contact" class="cta">Get Started</a>
+    </div>
+  </header>
+
+  <div class="page">
+    <main>
+      <section class="hero">
+        <div class="hero-banner"></div>
+        <div class="hero-overlay">
+          <div class="container hero-cta">
+            <a class="btn btn-primary" href="#contact">Book a free consult</a>
+            <a class="btn btn-ghost" href="#services">See what we do</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section">
+        <div class="container">
+          <h2 class="section-title">Our Services</h2>
+          <p class="section-sub">Everything you need to keep your business running smoothly, without pulling you away from what matters.</p>
+          <div class="grid cols-3">
+            <article class="card"><div class="card-body"><h3 class="card-title">Call Handling</h3><p class="card-text">We answer your calls, pass on what matters, and screen out the noise.</p></div></article>
+            <article class="card"><div class="card-body"><h3 class="card-title">Lead Response</h3><p class="card-text">We catch every lead, qualify them, and send you only the hottest ones.</p></div></article>
+            <article class="card"><div class="card-body"><h3 class="card-title">Customer Support</h3><p class="card-text">We answer questions, solve problems, and keep your clients happy.</p></div></article>
+            <article class="card"><div class="card-body"><h3 class="card-title">Admin Assistance</h3><p class="card-text">Spreadsheets, invoices, day‑to‑day tasks — we get it done for you.</p></div></article>
+            <article class="card"><div class="card-body"><h3 class="card-title">Website Live Chat</h3><p class="card-text">Quick replies, more conversions, and lead collection.</p></div></article>
+            <article class="card"><div class="card-body"><h3 class="card-title">Marketing & Promotion</h3><p class="card-text">Social, content, ads, campaigns, reports & analytics.</p></div></article>
+          </div>
+        </div>
+      </section>
+
+      <section id="how" class="section">
+        <div class="container">
+          <h2 class="section-title">How it works</h2>
+          <p class="section-sub">Simple setup. Fast ramp‑up. We blend into your tools and start making your day lighter from week one.</p>
+          <div class="grid cols-4">
+            <article class="card"><div class="card-body"><h3 class="card-title">1. Discover</h3><p class="card-text">Map your workflows, tools, and priorities.</p></div></article>
+            <article class="card"><div class="card-body"><h3 class="card-title">2. Plug in</h3><p class="card-text">Connect with least‑privilege access and clear boundaries.</p></div></article>
+            <article class="card"><div class="card-body"><h3 class="card-title">3. Operate</h3><p class="card-text">We run day‑to‑day — reply, organize, qualify, escalate.</p></div></article>
+            <article class="card"><div class="card-body"><h3 class="card-title">4. Report</h3><p class="card-text">Transparent metrics and updates so you see ROI.</p></div></article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container">
+          <h2 class="section-title">Contact</h2>
+          <p class="section-sub">Prefer email? <a href="mailto:hello@orbit-assist.com">hello@orbit-assist.com</a></p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container footer">
+        <div>
+          <a class="logo-wrap" href="#"><img src="./assets/images/logo.png" alt="OrbitAssist logo"></a>
+          <p class="card-text" style="margin-top:8px">Your remote operations partner — built into your business.</p>
+        </div>
+        <div>
+          <strong>Company</strong><br>
+          <a href="#services">Services</a><br>
+          <a href="#how">How it works</a><br>
+          <a href="#contact">Contact</a>
+        </div>
+        <div>
+          <strong>Legal</strong><br>
+          <a href="#">Privacy</a><br>
+          <a href="#">Terms</a><br>
+          <a href="#">Data Processing</a>
+        </div>
+      </div>
+      <small class="copy">© <span id="y"></span> OrbitAssist. All rights reserved.</small>
+    </footer>
+  </div>
+
+  <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>
