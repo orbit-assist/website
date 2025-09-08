@@ -1,1 +1,24 @@
+# OS junk
 .DS_Store
+Thumbs.db
+._*
+
+# Design/source files
+*.psd
+*.ai
+*.sketch
+*.xcf
+
+# Temp/backup
+*.log
+*.tmp
+*.bak
+*~
+
+# Build artifacts
+*.map
+.cache/
+dist/
+build/
+node_modules/
+
